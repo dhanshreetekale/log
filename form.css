@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    background-color: papayawhip;
+    
+}
+main{
+    display: flex;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main form{
+    width: 30%;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 5px;
+}
+label,#user,#pass,a{
+    display: block;
+}
+label{
+    font-size: 30px;
+}
+#user,#pass{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+
+}
+main form #butt{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background-color: chocolate;
+    color:black;
+
+}
+#can{
+    background-color: sienna;
+
+}
+a{
+    text-decoration:none;
+    color: darkred;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#user::placeholder{
+    color:chocolate
+}
+#pass::placeholder{
+    color: chocolate;
+}
+.fa-solid.fa-face-laugh-wink{
+    color: maroon;
+    font-size: 40px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#rp{
+    display: flex;
+    justify-content: center;
+
+}
+#cuser{
+    position: relative;
+}
+.fa-sharp.fa-solid.fa-user-secret{
+    position: absolute;
+    color: maroon;
+    top: 18%;
+    left:2%;
+}
+
+#cpass{
+    position: relative;
+}
+.fa-solid.fa-unlock-keyhole{
+    position: absolute;
+    color:maroon;
+    top: 18%;
+    left:2%;
+
+}
